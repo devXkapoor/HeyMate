@@ -1,4 +1,4 @@
-# HeyMate - React Native based App with Login/Signup Functionality
+# HeyMate - A React Native based App with Login/Signup Functionality
 
 ### Created by Devansh Kapoor
 
