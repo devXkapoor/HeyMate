@@ -1,50 +1,108 @@
-# Welcome to your Expo app 👋
+# HeyMate - React Native based App with Login/Signup Functionality
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+### Created by Devansh Kapoor
 
-## Get started
+      Email - devanshkapoor5@gmail.com
+      M - +917404404912
+      LinkedIn Profile - https://www.linkedin.com/in/devanshkapoor5
+      GitHub Profile - https://github.com/devXkapoor
 
-1. Install dependencies
+### Direct Download link for the app (Android APK)
+https://expo.dev/accounts/devxkapoor/projects/HeyMate/builds/34f57171-7660-43a1-bd38-c0473497dbc6
+
+### Tech-Stack used
+   React-Native + Expo + TypeScript => For Frontend, Interaction, and Building
+
+   Formik + Yup => For Form Handling and Validation
+
+   React-Native-Async-Storage - For Accessing and Manipulating with Local Storage
+
+## (a) How to run the project
+
+1. Download / Clone the Code
+2. Navigate to the HeyMate-Master Directory
+
+   ```bash
+   cd HeyMate-master
+   ```
+3. Install the dependencies
 
    ```bash
    npm install
    ```
 
-2. Start the app
+4. Start the app
 
    ```bash
     npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+5. Run the App
+   
+   
+   (i) Running in a Web Browser and Other Options
+      
+      The terminal will come up with a couple of options:
+   
+      › Press s │ switch to development build
+   
+      › Press a │ open Android
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+      › Press w │ open web
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+      › Press j │ open debugger
 
-## Get a fresh project
+      › Press r │ reload app
 
-When you're ready, run:
+      › Press m │ toggle menu
 
-```bash
-npm run reset-project
-```
+      › shift+m │ more tools
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+      › Press o │ open project code in your editor
 
-## Learn more
+      › Press ? │ show all commands
+   
+      Press the relevant keys to execute the corresponding operations
 
-To learn more about developing your project with Expo, look at the following resources:
+      Example - Press the w key on your laptop keyboard to preview it in a web browser
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+   
+   (ii) Running on an Android Device
+   
+      Apart from the above options, a QR Code would also be generated in the terminal.
+      Install the Expo Go app from Playstore and scan the QR Code preview it directly on your Android Device
 
-## Join the community
+8. Downloading and Installing APK in the Android Device
 
-Join our community of developers creating universal apps.
+   Run the following command within the HeyMate-master Directory
+   
+   ```bash
+      npx eas build -p android --profile preview
+   ```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   This will start building the App to be exported
+
+   Follow the instructions from the terminal
+
+   Click on the link generated in the terminal to track the build logs on the Expo Website
+
+   Once done, an option to download/install the app would appear on the website, as well as a QR Code
+   would be generated in the terminal.
+
+   Both of these can be used to download and install the required app!
+
+   
+## (b) Design Choices Made
+
+1. **Consistent Design**: Ensured consistent use of colors, fonts, and layout for a unified visual experience.  
+2. **Intuitive Navigation**: Simplified navigation with clear menus, buttons, and labels for ease of use.  
+3. **Responsive Design**: Optimized the interface for seamless functionality across different devices and screen sizes.  
+4. **User-Centric Features**: Incorporated user feedback and implemented features that prioritize usability and accessibility.  
+
+
+## (c) Assumptions / Limitations
+  
+1. **Limited Testing**: Assumed the design works universally without extensive user testing on diverse demographics.  
+2. **Scalability Concerns**: Current structure may not efficiently handle significant future scalability needs.  
+3. **Device-Specific Performance**: Assumed optimal performance across all devices without hardware-specific optimizations.  
+4. **Generalized User Base**: Assumed a general user profile without tailoring the experience for niche audiences.  
