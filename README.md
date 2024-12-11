@@ -15,7 +15,7 @@ https://expo.dev/accounts/devxkapoor/projects/HeyMate/builds/34f57171-7660-43a1-
 
    Formik + Yup => For Form Handling and Validation
 
-   React-Native-Async-Storage - For Accessing and Manipulating with Local Storage
+   React-Native-Async-Storage - For Accessing and Manipulating the Local Storage
 
 ## (a) How to run the project
 
